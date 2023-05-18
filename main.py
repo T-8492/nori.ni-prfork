@@ -188,6 +188,9 @@ def run():
 
     elif char == 'b':
       stack.append(random.randint(0, 1))
+     
+    elif char == 'c':
+      stack.append(random.randint(0, 2))
 
     elif char == '|':
       a = stack.pop()
